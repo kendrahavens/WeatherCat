@@ -1,7 +1,5 @@
 package com.example.user.weathercat1;
 
-import static com.example.user.weathercat1.WeatherLocation.getObject;
-
 /**
  * Created by User on 3/22/2015.
  */
