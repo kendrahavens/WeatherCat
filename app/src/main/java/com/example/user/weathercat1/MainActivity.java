@@ -16,8 +16,7 @@ import android.view.ViewGroup;
 
 import java.util.Locale;
 
-//WORKING PUSH
-//test
+//Allie's push
 
 public class MainActivity extends ActionBarActivity implements ActionBar.TabListener{
 

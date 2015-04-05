@@ -1,16 +1,7 @@
 package com.example.user.weathercat1;
 
-import android.location.Location;
-import android.util.JsonReader;
-import android.util.JsonToken;
-
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.json.JSONStringer;
-import org.json.JSONTokener;
-
-import java.io.BufferedReader;
 
 /**
  * Created by User on 3/19/2015.
@@ -53,7 +44,7 @@ public class WeatherLocation extends Weather {
     {
     }
 
-        public static JSONObject getCoordObj() {
+        public static JSONObject getCoordObj(JSONObject jObj) {
 
         try
 
@@ -69,7 +60,7 @@ public class WeatherLocation extends Weather {
         return null;
     }
 
-    public static JSONObject getSysObj() {
+    public static JSONObject getSysObj(JSONObject jObj) {
 
         try
 
