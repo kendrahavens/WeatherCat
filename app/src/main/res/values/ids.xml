@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="cityText" type="id" />
+    <item name="condDescr" type="id" />
+    <item name="temp" type="id" />
+    <item name="hum" type="id" />
+    <item name="press" type="id" />
+    <item name="windSpeed" type="id" />
+    <item name="windDeg" type="id" />
+    <item name="condIcon" type="id" />
+</resources>

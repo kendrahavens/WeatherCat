@@ -16,7 +16,7 @@ import android.view.ViewGroup;
 
 import java.util.Locale;
 
-//Allie's push
+//Allie's update 4/5
 
 public class MainActivity extends ActionBarActivity implements ActionBar.TabListener{
 
@@ -39,13 +39,6 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        //populate text
-        String city = "Norman,OK";
-      //  TextView cityText = (TextView) findViewById(R.id.cityText);
-
-        JSONWeatherTask task = new JSONWeatherTask();
-        //task.execute(new String[]{city});
 
         // Set up the action bar.
         final ActionBar actionBar = getSupportActionBar();
@@ -81,7 +74,6 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
                             .setTabListener(this));
         }
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -189,5 +181,6 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
         }
 
     }
+
 
 }

@@ -1,7 +1,5 @@
 package com.example.user.weathercat1;
 
-import android.location.Location;
-
 /**
  * Created by User on 3/19/2015.
  */

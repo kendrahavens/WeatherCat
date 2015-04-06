@@ -12,7 +12,7 @@ import java.net.URL;
 /**
  * Created by User on 3/22/2015.
  */
-public class WeatherClient extends Main{
+public class WeatherClient{
 
     private static final String CURRENT_WEATHER_URL = "http://api.openweathermap.org/data/2.5/weather?q=norman,us";
     private static final String BASE_URL = "";
